@@ -1,2 +1,2 @@
 Original code from https://github.com/walkersutton/cyclemetry
-我不想标蓝了
+Change it from using .gpx to .fit
