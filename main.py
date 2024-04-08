@@ -35,20 +35,8 @@ def demo_frame(filename, template_filename, second):
 if __name__ == "__main__":
     filename = "Morning_Ride.fit"
     template_filename = "safa_brian_a_1280_720.json"
-    video_filename = ""
-    # import json
-    # # 加载 JSON 文件
-    # with open(template_filename, 'r') as file:
-    #     config = json.load(file)
-    # # 修改配置值
-    # config['scene']['start'] = 0  # 设置实际的开始时间
-    # config['scene']['end'] = 1000  # 设置实际的结束时间
-    # config['scene']['width'] = 1920  # 设置实际的视频宽度
-    # config['scene']['height'] = 1080  # 设置实际的视频高度
-    # # 写回 JSON 文件
-    # with open(template_filename, 'w') as file:
-    #     json.dump(config, file, indent=4)
-
+    video_filename = "test.MP4"
+    ##添加一个时区
     # template_filename = "safa_brian_a_1280_720.json"
     if len(sys.argv) >= 2:
         if sys.argv[1] == "demo":
